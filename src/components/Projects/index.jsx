@@ -13,12 +13,11 @@ const index = () => {
       main="Projects over"
       small="Live Experience"
       imgsrc={projects}
-      content="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-       Voluptatem qui vel incidunt deleniti. Neque blanditiis, ad accusamus
-        delectus reprehenderit hic inventore velit quae quo quas! Perferendis
-         modi mollitia, nulla repellendus fuga impedit iusto repellat! A
-          iure labore tempora ab nostrum. Tempora voluptate quaerat beatae
-           eveniet amet iste quod distinctio fuga."
+      content="Here you'll find a collection of my innovative and 
+      impactful projects in web development, UI/UX developmnet and 
+      beyond. Each project showcases my skills, creativity, and attention 
+      to detail. Dive in and explore the solutions I've crafted to meet diverse 
+      challenges."
            visit='/contact'
            btname='Work with me ?'
       />

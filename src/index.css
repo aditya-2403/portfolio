@@ -1,31 +1,105 @@
-.image-fluid{
-    width: 100% !important;
-    scale: 0.8;
-    border-radius: 20px;
+.image-fluid {
+  width: 100% !important;
+  scale: 0.8;
+  border-radius: 20px;
 }
 
-nav li{
-    padding-right: 2.5rem;
+nav li {
+  padding-right: 2.5rem;
+}
+.menu_active {
+  font-weight: bold !important;
+  border-bottom: 2px solid #565387 !important;
+  background-color: #e30bbf20 !important;
+  border-radius:20px;
+  padding: 10px !important;
 }
 
 .footer {
-    background-color: #f8f8f8;
-    left: 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-  }
+  background-color: #f8f8f8;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
 
-  .social-links{
-    align-items: center;
-    justify-content: center;
- display: flex;
- flex-direction: row;
- margin: 0px 20px 5px;
+.social-links {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin: 0px 20px 5px;
+}
+.social-links a:hover {
+  scale: 1.1;
+  transition: 1s ease;
+  color: #f8f8f8;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social-icons a {
+  border: 0.5px solid rgb(194, 194, 247);
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+}
+
+.social-icons a:hover {
+  background-color: rgb(132, 132, 255);
+  color: #fff;
+  transition: 0.5s ease;
+  scale: 1.2;
+}
+
+.contactpage {
+  margin-top: 11%;
+}
+form {
+  border: 0.5px solid blue;
+  border-radius: 20px;
+  padding: 5%;
+  box-shadow: 2px 2px 5px #000;
+}
+.educont {
+  padding-left: 8rem !important;
+}
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+  .educont {
+    padding: 5rem !important;
   }
-  .social-links a:hover{
-    scale: 1.1;
-    transition: 1s ease;
-    color: #f8f8f8;
+}
+
+@media (max-width: 768px) {
+  .image-fluid {
+    scale: 0.7;
   }
+  .educont {
+    padding: 2rem !important;
+  }
+}
+
+@media (max-width: 426px) {
+  .educont {
+    padding: 2rem !important;
+  }
+  .contactpage {
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 360px) {
+  .educont {
+    padding: 2rem !important;
+  }
+  .contactpage {
+    margin-top: 20%;
+  }
+}
